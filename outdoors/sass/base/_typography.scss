@@ -33,12 +33,10 @@ body {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  display: inline-block;
-  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-  -webkit-background-clip: text;
-  color: transparent;
   letter-spacing: .2rem;
   transition: all .2s;
+
+  @include gradient-text-primary;
 
   &:hover {
     transform: skewY(1deg) skewX(15deg) scale(1.05);
