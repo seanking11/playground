@@ -9,8 +9,12 @@
 @mixin gradient-text-primary {
   display: inline-block;
   background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-  -webkit-background-clip: text;
-  color: transparent;
+  color: $color-primary;
+
+  @supports (-webkit-background-clip: text) {
+    -webkit-background-clip: text;
+    color: transparent;
+  }
 }
 
 @mixin center-horizontal-vertical {
