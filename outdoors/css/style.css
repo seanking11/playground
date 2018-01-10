@@ -430,6 +430,9 @@ body {
   display: block;
   color: inherit;
   transition: all .3s; }
+  @media (max-width: 56.25em) {
+    .form__input {
+      width: 100%; } }
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
@@ -689,6 +692,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+    @media (max-width: 37.5em) {
+      .header__text-box {
+        top: 50%; } }
 
 .footer {
   background-color: #333;
