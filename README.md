@@ -8,3 +8,4 @@ A central location for projects & exercises that don't warrant their own dedicat
 - `trillo` - Modern web app template for booking a trip - [Live Demo](http://seancking.com/trillo/)
 - `youtube-search` - React only Youtube search page
 - `weather` - Simple 5 day weather forecasting app utilizing Google Maps and Open Weather APIs
+- `blog` - Blog built using React and leveraging an external data storage
