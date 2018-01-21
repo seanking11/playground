@@ -5,7 +5,11 @@ import { connect } from 'react-redux'
 import { createPost } from '../actions'
 
 class PostsNew extends Component {
-  onSubmit = values => this.props.createPost(values)
+  onSubmit = values => {
+    this.props.createPost(values, () => {
+      this.props.history.push('/')
+    })
+  }
 
   renderField = field => {
     const { touched, error } = field.meta
