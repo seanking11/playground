@@ -1,2 +1,3 @@
-# Lyrical-GraphQL
-Starter project from a GraphQL course on Udemy.com
+# lyrical
+
+Web application that allows song creation lyric by lyric and has 'like' system. Utilizes GraphQL and React
