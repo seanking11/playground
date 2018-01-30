@@ -24,7 +24,7 @@ class LyricList extends Component {
         <div className='vote-box'>
           {likes}
           <i
-            className='material-icons'
+            className='material-icons thumbs-up'
             onClick={() => this.onLike(id, likes)}
           >
             thumb_up
