@@ -1,0 +1,9 @@
+.collection-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.material-icons:hover {
+  cursor: pointer;
+  color: #4e4e4e;
+}
