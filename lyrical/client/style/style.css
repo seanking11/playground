@@ -3,7 +3,16 @@
   justify-content: space-between;
 }
 
+.material-icons {
+  margin-left: 5px;
+}
+
 .material-icons:hover {
   cursor: pointer;
   color: #4e4e4e;
+}
+
+.vote-box {
+  display: flex;
+  align-items: center;
 }
