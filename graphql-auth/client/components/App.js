@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header'
 
 export default (props) => (
-  <div>
+  <div className='container'>
     <Header />
     {props.children}
   </div>
