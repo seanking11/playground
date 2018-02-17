@@ -11,4 +11,4 @@ A central location for projects & exercises that don't warrant their own dedicat
 - `blog` - Blog built using React and leveraging an external data storage
 - `users` - CRUD system utilizing GraphQL and a local json-server
 - `lyrical` - Web application that allows song creation lyric by lyric and has 'like' system. Utilizes GraphQL and React
-- `graphql-auth` - Simple authentication app utilizing GraphQL
+- `nexter` - Modern web page utilizing CSS grid
